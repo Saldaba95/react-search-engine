@@ -7,7 +7,10 @@ function App() {
       <header className="App-header">
         <h1>Weather Search Engine</h1>
       </header>
-      <main> </main>
+      <main>
+        {" "}
+        <Weather-search-engine />
+      </main>
       <footer>
         {" "}
         <p>
