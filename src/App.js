@@ -1,5 +1,5 @@
 import "./App.css";
-import Weather from "./Weather-search-engine";
+import Weathersearchengine from "./Weathersearchengine";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       </header>
       <main>
         {" "}
-        <Weather-search-engine />
+        <Weathersearchengine />
       </main>
       <footer>
         {" "}
