@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "bootstrap/dist/css/bootstrap.css";
+import "./App.css";
+
 export default function Weathersearchengine() {
   let [city, setCity] = useState("");
   let [loaded, setLoaded] = useState(false);
@@ -29,14 +32,19 @@ export default function Weathersearchengine() {
 
   let details = (
     <form onSubmit={submitting}>
-      <input type="search" placeholder="Enter a city...." onChange={loadCity} />
+      <input
+        className="Search"
+        type="search"
+        placeholder="Enter a city...."
+        onChange={loadCity}
+      />
       <button type="Submit">Search</button>
     </form>
   );
 
   if (loaded) {
     return (
-      <div>
+      <div className="Weatherlist">
         {details}
         <ul>
           <li>Temperature: {Math.round(weather.temperature)}°C</li>

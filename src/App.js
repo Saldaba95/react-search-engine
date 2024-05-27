@@ -1,5 +1,6 @@
 import "./App.css";
-import Weathersearchengine from "./Weathersearchengine";
+import "./Weather.css";
+import Weather from "./Weather";
 
 function App() {
   return (
@@ -7,13 +8,13 @@ function App() {
       <header className="App-header">
         <h1>Weather Search Engine</h1>
       </header>
-      <main>
+      <main className="Forecast">
         {" "}
-        <Weathersearchengine />
+        <Weather />
       </main>
       <footer>
         {" "}
-        <p>
+        <p className="Contacts">
           Let's stay connected... <br />
           Check out my{" "}
           <a
