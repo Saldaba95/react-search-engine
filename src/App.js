@@ -1,6 +1,7 @@
 import "./App.css";
 import "./Weather.css";
 import Weather from "./Weather";
+import Contacts from "./Contacts";
 
 function App() {
   return (
@@ -13,27 +14,7 @@ function App() {
         <Weather />
       </main>
       <footer>
-        {" "}
-        <p className="Contacts">
-          Let's stay connected... <br />
-          Check out my{" "}
-          <a
-            className="Github"
-            href="https://github.com/Saldaba95/react-search-engine"
-            target="blank"
-          >
-            GitHub
-          </a>{" "}
-          and{" "}
-          <a
-            className="Shecodes"
-            href="https://www.shecodes.io/graduates/66500-sarei-aldaba"
-            target="blank"
-          >
-            SheCodes
-          </a>
-          .
-        </p>{" "}
+        <Contacts />
       </footer>
     </div>
   );

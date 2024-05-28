@@ -4,3 +4,8 @@ ul {
 .col-6 li {
   list-style: none;
 }
+.Forecast-app {
+  color: #878787;
+  color: rgb(135, 135, 135);
+  display: block;
+}

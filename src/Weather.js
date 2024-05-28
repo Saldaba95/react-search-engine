@@ -4,6 +4,14 @@ import "./Weather.css";
 export default function Weather() {
   return (
     <div className="Forecast-app">
+      <input className="Search" type="search" placeholder="Enter a city...." />
+      <button
+        type="Submit"
+        className="btn btn-secondary
+      "
+      >
+        Search
+      </button>
       <h1>New York</h1>
       <ul>
         <li>Sunday 05:00</li>

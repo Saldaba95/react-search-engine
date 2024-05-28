@@ -25,11 +25,12 @@
 .Forecast {
   border: 1px solid lightseagreen;
   border-radius: 10px;
-  background: lightsteelblue;
+  background: darkblue;
   list-style: none;
-  max-width: 600px;
+  max-width: 700px;
+  max-height: 1000px;
   padding: 50px 10px;
 }
 .Search {
-  max-width: 200px;
+  padding-right: 70px;
 }
