@@ -13,7 +13,7 @@ function App() {
         </header>
         <main className="Forecast">
           {" "}
-          <Weather />
+          <Weather defaultCity="New York" />
         </main>
         <footer>
           <Contacts />

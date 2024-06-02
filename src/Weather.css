@@ -14,7 +14,7 @@ ul {
 .Forecast {
   border: 1px solid lightseagreen;
   border-radius: 10px;
-  background: lightskyblue;
+  background: lightyellow;
   list-style: none;
   max-width: 700px;
   max-height: 1000px;
@@ -24,10 +24,15 @@ form {
   margin-top: -20px;
   margin-bottom: 20px;
 }
+.Weather img {
+  line-height: 64px;
+  margin-right: 10px;
+  display: inline-block;
+}
 .Weather .temp {
   font-weight: bold;
   color: rgb(33, 33, 33);
-  font-size: 64px;
+  font-size: 44px;
   line-height: 64px;
   font-weight: 400;
 }
