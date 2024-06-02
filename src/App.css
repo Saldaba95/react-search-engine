@@ -1,12 +1,16 @@
+.App {
+  max-width: 700px;
+  margin: 0 auto;
+}
 .App-header {
-  background-color: #282c34;
+  background: gray;
   min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #282c34;
 }
 
 .App .Shecodes,
@@ -16,21 +20,19 @@
 }
 .App main {
   margin: 30px auto;
+  display: block;
+}
+.App footer {
+  font-size: 11px;
+  margin: 10px 0;
 }
 .Weatherlist ul {
   list-style: none;
   line-height: 45px;
 }
 
-.Forecast {
-  border: 1px solid lightseagreen;
-  border-radius: 10px;
-  background: darkblue;
-  list-style: none;
-  max-width: 700px;
-  max-height: 1000px;
-  padding: 50px 10px;
-}
 .Search {
   padding-right: 70px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }

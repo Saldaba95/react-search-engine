@@ -1,8 +1,9 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.css";
 
 export default function Contacts() {
   return (
-    <div>
+    <div className="Container-contacts">
       <p className="Contacts">
         Let's stay connected... Check out my{" "}
         <a

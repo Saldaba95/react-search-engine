@@ -4,8 +4,38 @@ ul {
 .col-6 li {
   list-style: none;
 }
-.Forecast-app {
+.Container {
   color: #878787;
   color: rgb(135, 135, 135);
   display: block;
+  padding: 9px;
+  margin: 3px auto;
+}
+.Forecast {
+  border: 1px solid lightseagreen;
+  border-radius: 10px;
+  background: lightskyblue;
+  list-style: none;
+  max-width: 700px;
+  max-height: 1000px;
+  padding: 50px 10px;
+}
+form {
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.Weather .temp {
+  font-weight: bold;
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 400;
+}
+.Weather .unit {
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  top: -32px;
+  margin-left: 5px;
 }
