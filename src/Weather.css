@@ -26,13 +26,13 @@ form {
 }
 .Weather img {
   line-height: 64px;
-  margin-right: 10px;
+  margin-right: 7px;
   display: inline-block;
 }
 .Weather .temp {
   font-weight: bold;
   color: rgb(33, 33, 33);
-  font-size: 44px;
+  font-size: 60px;
   line-height: 64px;
   font-weight: 400;
 }
