@@ -12,9 +12,10 @@ ul {
   margin: 3px auto;
 }
 .Forecast {
-  border: 1px solid lightseagreen;
+  border: 1px solid lightgray;
   border-radius: 10px;
-  background: lightyellow;
+  background: black;
+  color: azure;
   list-style: none;
   max-width: 700px;
   max-height: 1000px;
@@ -31,13 +32,13 @@ form {
 }
 .Weather .temp {
   font-weight: bold;
-  color: rgb(33, 33, 33);
+  color: azure;
   font-size: 60px;
   line-height: 64px;
   font-weight: 400;
 }
 .Weather .unit {
-  color: rgb(33, 33, 33);
+  color: azure;
   font-size: 16px;
   font-weight: 400;
   position: relative;
